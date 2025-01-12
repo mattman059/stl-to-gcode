@@ -85,8 +85,8 @@ def generate_gcode(toolpaths, layer_height, output_file):
 
 # Example usage
 if __name__ == "__main__":
-    stl_file = "xyzCalibration_cube.stl"
-    gcode_file = "xyzCalibration_cube.gcode"
+    stl_file = "INPUT_FILENAME_HERE"
+    gcode_file = "OUTPUT_FILENAME_HERE"
     layer_height = 0.2
 
     # Load the STL file
